@@ -19,6 +19,17 @@ Help me develop this app
 - Better CSS for Files list on desktops and mobiles,
   Or maybe I should put everything on one page for submiting URLs and seeing all files.
   
+  
+  
+### Notes before usage:
+- Specify a port in index.js.
+```javascript
+var port = process.env.PORT || 80;
+```
+- Cleck on the folder icon on main page to go to files list page, or you can just add /files to the URL
+```
+eg. localhost/files
+```
 
 ### Screenshots
 
