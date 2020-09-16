@@ -22,7 +22,7 @@ Help me develop this app
   
   
 ### Notes before usage:
-- Specify a port in index.js.
+- Specify a port in index.js or it will not work for you.
 ```javascript
 var port = process.env.PORT || 80;
 ```
