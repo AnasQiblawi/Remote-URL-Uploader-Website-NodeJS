@@ -25,7 +25,7 @@ Help me develop this app
 ```javascript
 var port = process.env.PORT || 80;
 ```
-- Cleck on the folder icon on main page to go to files list page, or you can just add /files to the URL
+- Click on the folder icon on main page to go to files list page, or you can just add /files to the URL
 ```
 eg. localhost/files
 ```
