@@ -4,7 +4,7 @@ Help me develop this app
 
 ### About
 ```
-   This is a web app that will help you move files using URLs from any website directly to your server.
+   This is a web app that will help you upload files using URLs from any website directly to your server.
 ```
 
 ### To do List:
@@ -28,5 +28,7 @@ Help me develop this app
 
 
 
-//------
+
+
+
 ![](https://dillinger.io/)
