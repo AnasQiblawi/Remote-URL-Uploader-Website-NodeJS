@@ -3,9 +3,8 @@
 Help me develop this app
 
 ### About
-```
    This is a web app that will help you upload files using URLs from any website directly to your server.
-```
+
 
 ### To do List:
 - Better file naming code.
