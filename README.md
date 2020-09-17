@@ -1,6 +1,7 @@
 # Remote-URL-Uploader-Website-NodeJS
 
-Help me develop this app
+## Help me develop this app
+- I only do programming as a hoppy and I am not realy professional so if you can help me with this app it would be very helpful.
 
 ### About
    This is a web app that will help you upload files using URLs from any website directly to your server.
@@ -37,7 +38,9 @@ eg. localhost/files
   ![Files List](https://user-images.githubusercontent.com/8499322/93342381-f2e1de80-f837-11ea-86cc-ec16be0380b3.jpg)
 
 
-
+### CSS Styles
+- [Home Page](https://codepen.io/marcobiedermann/pen/Fybpf)
+- [Files List Page](https://codepen.io/geoffyuen/pen/FCBEg )
 
 
 
