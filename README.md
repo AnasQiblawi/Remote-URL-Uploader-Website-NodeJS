@@ -14,7 +14,7 @@
 - Getting file extension type from request headers using res.headers['Content-Type'] if found,
   be aware, sometimes it gives strange types like 'application/octet-stream' for an .mp4 file
 - Add custome name option.
-- Live Progress bar while uploading and disable uploading button while it's on progress.
+- Live Progress bar while uploading and disable uploading button while it's on progress, or the button itself becomes the progress bar.
 - Prevent downloading files that are still on uploading progress.
 - Better CSS for Files list on desktops and mobiles,
   Or maybe I should put everything on one page for submiting URLs and seeing all files.
