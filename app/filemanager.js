@@ -15,7 +15,7 @@ function filemanager(req, res){
     //console.log(fs.statSync('./data/'+a))
     files.push({
       name: a,
-      size: size(a) // MegaByte
+      size: size(a)
     })
   })
   //res.send(files)
