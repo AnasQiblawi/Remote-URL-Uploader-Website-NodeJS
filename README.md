@@ -22,9 +22,9 @@
   
   
 ### Notes before usage:
-- Specify a port in index.js or it will not work for you.
+- You can edit listening port in index.js
 ```javascript
-var port = process.env.PORT || 80;
+var port = process.env.PORT || 8080;
 ```
 - Click on the folder icon on main page to go to files list page, or you can just add /files to the URL
 ```
