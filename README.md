@@ -18,6 +18,7 @@
 - Prevent downloading files that are still on uploading progress.
 - Better CSS for Files list on desktops and mobiles,
   Or maybe I should put everything on one page for submiting URLs and seeing all files.
+- Edit the internal progressbar to be able to work if didn't already know the full size before uploading.
   
   
   
