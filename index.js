@@ -42,15 +42,15 @@ app.get('/', function(req, res) {
 });
 
 // Uploader ---------------------------------
-var uploader = require('./app/uploader').uploader;
+var uploader = require('./lib/uploader').uploader;
 app.post('/uploader', uploader);
 
 // file explorer
-var filemanager = require('./app/filemanager').filemanager;
+var filemanager = require('./lib/filemanager').filemanager;
 app.get('/files', filemanager);
 
 // delete
-var deleter = require('./app/deleter').deleter;
+var deleter = require('./lib/deleter').deleter;
 app.get('/delete/:file_name', deleter);
 
 
