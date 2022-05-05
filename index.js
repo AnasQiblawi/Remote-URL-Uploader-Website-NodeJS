@@ -16,7 +16,7 @@ const ejs = require('ejs');
 // ------------------
 //////////////////////////////////////////////////////////////////
 // Setting Server --------------------------------------------------------------
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 80;
 app.listen(port, console.log(`Server is Running on port : ${port}`));
 app.set('view engine', 'ejs');
 // Static Requests --------------------------------------------------------------
