@@ -3,14 +3,13 @@ const app = require('./lib/server')
 const fs = require('fs');
 
 
-
-//////////////////////////////////////////////////////////////////
-
-// Make a directory for data
+// Make a directory for data if not exist.
 if (!fs.existsSync('./data')) {
-  fs.mkdirSync('./data');
+	fs.mkdirSync('./data');
 }
 
+
+/// Routing ///////////////////////////////////////////////////////////////////
 
 // Home Page ---------------------------------
 app.get('/', function(req, res) {
