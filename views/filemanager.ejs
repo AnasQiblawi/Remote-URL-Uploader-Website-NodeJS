@@ -135,8 +135,10 @@ right {
 	<tr>
 		<td><%= file.name %></td>
 		<td>
-      <span> <%= file.size[1] %></span>
-      <right><%= file.size[2] %></right>
+      <!-- <span> <%= file.size[1] %></span> -->
+      <!-- <right><%= file.size[2] %></right> -->
+        <a><%= file.size[1] %></a>
+        <a><%= file.size[2] %></a>
     </td>
     <td><i id="download" class="fas fa-chevron-circle-down" onclick="window.open('/<%=file.name%>','_self')" ></i></td>
     <td><i id="delete" class="fas fa-times" onclick="window.open('/delete/<%=file.name%>','_self')"></i></td>
